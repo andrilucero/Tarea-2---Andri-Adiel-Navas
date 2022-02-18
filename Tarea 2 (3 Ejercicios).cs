@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Tarea_2___Andri_Adiel_Navas
 {
 	public class Ejercicio1
@@ -11,30 +6,31 @@ namespace Tarea_2___Andri_Adiel_Navas
 		public static void Main()
 		{
 			byte num1;
-			Console.WriteLine("¿Cuál es tu edad?");
+			Console.WriteLine("\n¿Cuál es tu edad?\n");
 			num1 = Convert.ToByte(Console.ReadLine());
 			ushort result = Convert.ToUInt16(num1);
 
-			Console.WriteLine("No aparentas tener" + result + "años");
+			Console.WriteLine("\nNo aparentas tener\n" + result + "\naños\n");
 
 			byte nume1, nume2;
-			Console.WriteLine("Ingrese 2 numeros de 2 cifras para multiplicarlos:");
+			Console.WriteLine("\nIngrese 2 numeros de 2 cifras para multiplicarlos:\n");
 			nume1 = Convert.ToByte(Console.ReadLine());
 			nume2 = Convert.ToByte(Console.ReadLine());
 			int resul3 = nume1 * nume2;
 			Console.WriteLine(resul3);
 
 			long numer1, numer2, rest, sum, product;
-			Console.WriteLine("Ingrese el primer numero a evaluar");
+			Console.WriteLine("\nIngrese el primer numero a evaluar\n");
 			numer1 = Convert.ToInt64(Console.ReadLine());
-			Console.WriteLine("Ingrese el segundo numero a evaluar");
+			Console.WriteLine("\nIngrese el segundo numero a evaluar\n");
 			numer2 = Convert.ToInt64(Console.ReadLine());
 			sum = numer1 + numer2;
 			rest = numer1 - numer2;
 			product = numer1 / numer2;
-			Console.WriteLine("La suma de los numeros es: ", sum);
-			Console.WriteLine("La resta de los numeros es: ", rest);
-			Console.WriteLine("El producto de los numeros es: ", product);
+			Console.WriteLine("La suma de los numeros es: " + sum); Console.ReadLine();
+			Console.WriteLine("La resta de los numeros es: " + rest); Console.ReadLine();
+			Console.WriteLine("El producto de los numeros es: " + product); Console.ReadLine();
 
 		}
 	}
+}
