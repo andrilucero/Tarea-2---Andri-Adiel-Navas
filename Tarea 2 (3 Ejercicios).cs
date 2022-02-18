@@ -27,9 +27,9 @@ namespace Tarea_2___Andri_Adiel_Navas
 			sum = numer1 + numer2;
 			rest = numer1 - numer2;
 			product = numer1 / numer2;
-			Console.WriteLine("La suma de los numeros es: " + sum); Console.ReadLine();
-			Console.WriteLine("La resta de los numeros es: " + rest); Console.ReadLine();
-			Console.WriteLine("El producto de los numeros es: " + product); Console.ReadLine();
+			Console.WriteLine("\nLa suma de los numeros es: \n" + sum); Console.ReadLine();
+			Console.WriteLine("\nLa resta de los numeros es: \n" + rest); Console.ReadLine();
+			Console.WriteLine("\nEl producto de los numeros es: \n" + product); Console.ReadLine();
 
 		}
 	}
