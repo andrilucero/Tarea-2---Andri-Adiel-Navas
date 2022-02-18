@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Tarea_2___Andri_Adiel_Navas
 {
-	public class Ejercicio1
+	public class Ejercicios
 	{
 		public static void Main()
 		{
@@ -20,9 +20,9 @@ namespace Tarea_2___Andri_Adiel_Navas
 			Console.WriteLine(resul3);
 
 			long numer1, numer2, rest, sum, product;
-			Console.WriteLine("\nIngrese el primer numero a evaluar\n");
+			Console.WriteLine("\nIngrese el primer numero a evaluar:\n");
 			numer1 = Convert.ToInt64(Console.ReadLine());
-			Console.WriteLine("\nIngrese el segundo numero a evaluar\n");
+			Console.WriteLine("\nIngrese el segundo numero a evaluar:\n");
 			numer2 = Convert.ToInt64(Console.ReadLine());
 			sum = numer1 + numer2;
 			rest = numer1 - numer2;
